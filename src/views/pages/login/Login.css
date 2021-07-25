@@ -1,0 +1,35 @@
+.login-background{
+    background: linear-gradient(to right, #fdfdfd, #eaf8ff);
+}
+
+.ui.tag.label {
+  background: #e8e8e8!important;
+  color: #676767;
+  line-height: 2!important;
+  /*width: 110px;*/
+}
+
+.px-5 {
+  height: 40px;
+  font-weight: 600;
+}
+.login-right-side-forgot-password {
+  font-size: 13px!important;
+  color: #0d65c3!important;
+  text-align: right;
+  cursor: pointer;
+}
+.login-right-side-forgot-password_ {
+  font-size: 13px!important;
+  color: #0d65c3!important;
+  text-align: left;
+  cursor: pointer;
+}
+.login-right-side-forgot-password:hover, .login-right-side-forgot-password_:hover{
+  color: #53bd52!important;
+}
+
+.btn-secondary{
+  background-color: #0d65c3 !important;
+}
+

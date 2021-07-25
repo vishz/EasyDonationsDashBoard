@@ -1,0 +1,89 @@
+.landing-wrapper {
+  .donate-modal {
+    p {
+      font-weight: 600;
+      font-size: 36px;
+      margin-bottom: 16px;
+    }
+    button {
+      margin-top: 16px;
+      box-shadow: 0 4px 10px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+    }
+  }
+  .carousel {
+    padding-top: 55px;
+  }
+  .w-100,
+  .carousel-item
+  {
+    height: calc(100vh - 55px);
+  }
+  .w-100 {
+    object-fit: cover;
+    background: grey;
+    -webkit-filter: brightness(60%);
+    filter: brightness(60%);
+  }
+
+
+  .sr-only {
+    display: none;
+  }
+
+
+  .carousel-caption {
+    bottom: calc(50% - 55px);
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0; // override <ol> default
+    // Use the .carousel-control's width as margin so we don't overlay those
+    margin-right: 15px;
+    margin-left: 15px;
+    list-style: none;
+
+    li {
+      border-radius: 50%;
+      position: relative;
+      flex: 0 1 auto;
+      width: 13px;
+      height: 13px;
+      margin-right: 15px;
+      margin-left: 15px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: white;
+
+      // Use pseudo classes to increase the hit area by 10px on top and bottom.
+      &::before {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        height: 10px;
+        content: "";
+      }
+      &::after {
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        height: 10px;
+        content: "";
+      }
+    }
+
+    .active {
+      background-color: #1a6fb7;
+    }
+  }
+}

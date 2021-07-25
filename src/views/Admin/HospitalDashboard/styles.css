@@ -1,0 +1,35 @@
+.btn-delete{
+    color: white !important;
+    background-color: red !important;
+    
+}
+
+.btn-update{
+    color: white !important;
+    background-color: #0d65c3 !important;
+}
+
+.table>thead:nth-child(1){
+    display: none;
+}
+
+.welcome-note-home {
+    font-size: 30px!important;
+    padding: 0px!important;
+    font-weight: 600;
+    color: #7b7b7b;
+  }
+  
+  .welcome-text-home {
+    font-size: 30px!important;
+    padding: 0!important;
+  }
+  
+  .marginBottom{
+    margin-bottom: 20px;
+  }
+
+  .ant-message{
+    z-index: 9999 !important;
+  }
+  

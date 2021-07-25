@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.donate-btn {
+  background: linear-gradient(87deg,#1a6fb7,#48a9e0)!important;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 35px;
+  color: white;
+  font-weight: 600;
+}
+.donate-btn:hover {
+  background: linear-gradient(87deg,#48a9e0,#1a6fb7)!important;
+}
+.common-btn {
+  width: auto!important;
+  margin: auto!important;
+  margin-top: 20px!important;
+  background: linear-gradient(87deg,#808080,#545454)!important;
+  padding: 10px 35px!important;
+}
+.common-btn:hover {
+  background: linear-gradient(87deg,#545454,#808080)!important;
+}
+.m-0 {
+  margin: 0!important;
+}
+.normal-head-font {
+  font-weight: 600;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+.normal-sub-font {
+  font-size: 20px;
+}
+.donate-input {
+  height: 38px;
+  border: none;
+  border-bottom: 1px solid;
+  margin-left: 10px;
+  outline: none;
+}
+.modal-content button {
+  border: none!important;
+}
+/*scrollabar*/
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent linear-gradient(104deg, #1a6fb7 0%, #48a9e0 92%, #1a6fb7 100%) 0% 0% no-repeat padding-box!important;
+  /*border-radius: 30px 30px 30px 30px;*/
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent linear-gradient(104deg, #1a6fb7 0%, #48a9e0 92%, #1a6fb7 100%) 0% 0% no-repeat padding-box!important;
+}

@@ -1,0 +1,102 @@
+.header-global {
+  #navbar_global {
+    border: 1px solid white;
+  }
+  .nvbr-logo {
+    //height: 50px !important;
+    position: absolute;
+    //width: 100px;
+    object-fit: contain;
+    height: 55px!important;
+    top: 0!important;
+  }
+
+  .nvbr-logo-home {
+    padding-top: 5px !important;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row!important;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  justify-content: flex-end;
+    width: 100%;
+  }
+  .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+  }
+
+  .container {
+    width: 100% !important;
+    padding-right: 8% !important;
+    padding-left: 8% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    /*display: flex !important;*/
+    display: inherit !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    max-width: 100% !important;
+  }
+
+  .guest-nav-item {
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .navbar-main {
+    margin: 0 !important;
+    padding: 0rem 0rem;
+    background: white;
+    position: fixed;
+    box-shadow: 0 4px 10px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+    width: 100%;
+    height: 55px;
+    z-index: 10;
+  }
+
+
+  .nvbr-h-navlink {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    margin: 0 !important;
+    cursor: pointer;
+    &:hover {
+      color: #2195f6;
+    }
+  }
+
+  .nvbr-h-navlink-active {
+    color: #2195f6;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 !important;
+  }
+
+  .nav-item {
+    margin: 0 15px;
+  }
+  .nav-item:last-child {
+    margin-right: 0!important;
+  }
+  .nvbr-h-dropdown, .nvbr-h-dropdown > a {
+    padding: 0px !important;
+    margin: 0px !important;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 14px !important;
+  }
+
+  .nvbr-h-dropdown > .dropdown-menu.show {
+    top: 35px !important;
+  }
+
+  .active-drop-item {
+    background: #C6DBED !important;
+    color: black !important;
+  }
+}

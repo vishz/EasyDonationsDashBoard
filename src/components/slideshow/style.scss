@@ -1,0 +1,29 @@
+.slick-slider  {
+  .slideshow-wrapper {
+    width: 300px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .slick-slide img {
+    display: block;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+  }
+  .slick-prev:before, .slick-next:before {
+    color: grey;
+  }
+  .slideshow-pro-name {
+    padding: 10px 5px 5px 5px;
+    margin: 0;
+    font-weight: 600;
+  }
+  .slideshow-pro-category {
+    padding: 0px 5px 5px 5px;
+    color: #da690c;
+  }
+}
